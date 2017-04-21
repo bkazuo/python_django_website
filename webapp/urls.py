@@ -3,6 +3,6 @@ from . import views # Import from the very app
 
 
 urlpatterns = [
-    url(r'^hey$', views.index, name='index'),
+    url(r'^$', views.index, name='index'),
     url(r'^contact/', views.contact, name='contact'),
 ]
